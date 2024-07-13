@@ -1,0 +1,75 @@
+body, html{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #9DC183;
+    color: #444342;
+    font-family: 'Lora', serif;
+
+}
+
+.title{
+    width: 100vw;
+    height: 45vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: 100vw;
+    height: auto;
+}
+
+.address{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.hours{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+}
+
+ul li{
+    margin-top: 1vh;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    .logo{
+        width: 25vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .address{
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .hours{
+        display: block;
+        text-align: center;
+        font-size: 1.75em;
+    }
+} 
+
+h2{
+    color: white;
+}
+
+footer{
+    display: block;
+    margin-left: 1vw;
+    font-weight: bold;
+}
+
+
